@@ -5,7 +5,7 @@ forEach.
 
 Code added:
 
-```java
+```
 ObjectMap<String, String> testmap;
 
 // in create()
@@ -30,4 +30,3 @@ compileOptions {
     targetCompatibility 1.8
 }
 ```
-

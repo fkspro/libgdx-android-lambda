@@ -17,7 +17,7 @@ testmap.put("three", "the last entry");
 testmap.forEach(e -> Gdx.app.log("test", "element: " + e));
 ```
 
-This works as expected on desktop but crashes immediately on run on
+This works as expected on desktop but crashes immediately on
 Android.  The relevant error from logcat seems to be
 
 `art     : Rejecting re-init on previously-failed class java.lang.Class<com.mygdx.game.-$$Lambda$AndroidTest$xfEPtIpFSYEmXjDtAPiPmn8r3NM>`
